@@ -8,8 +8,8 @@ If you don't know it, open a Terminal (Applications > System Tools > Terminal) a
 
 $  /sbin/lspci | grep -e VGA
 
-#for { NVCx and newer=Current GeForce/Quadro/Tesla } chose the first  script
+#for { NVCx and newer=Current GeForce/Quadro/Tesla } chose nvidia-current.sh
  
-#for { Legacy GeForce 8/9/200=NV5x, NV8x, NV9x and NVAx } chose second script
+#for { Legacy GeForce 8/9/200=NV5x, NV8x, NV9x and NVAx } chose nvidia-leagcy.sh
  
-#for { Legacy GeForce 6/7=NV4x and NV6x } chose the last script
+#for { Legacy GeForce 6/7=NV4x and NV6x } chose nvidia-legacyold.sh
